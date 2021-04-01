@@ -1,3 +1,22 @@
 ﻿  main.cpp
 D:\学习\课程\大二\大二春季\数据结构2\研讨一\OurPCF\main.cpp(13,21): warning C4101: “cur”: 未引用的局部变量
-  OurPCF.vcxproj -> D:\学习\课程\大二\大二春季\数据结构2\研讨一\OurPCF\Debug\OurPCF.exe
+D:\学习\课程\大二\大二春季\数据结构2\研讨一\OurPCF\ParentChildForest.h(86,25): error C2248: “Node<int>::next”: 无法访问 protected 成员(在“Node<int>”类中声明)
+D:\学习\课程\大二\大二春季\数据结构2\研讨一\OurPCF\node.h(13): message : 参见“Node<int>::next”的声明
+D:\学习\课程\大二\大二春季\数据结构2\研讨一\OurPCF\child_parent_tree_node.h(13): message : 参见“Node<int>”的声明
+D:\学习\课程\大二\大二春季\数据结构2\研讨一\OurPCF\ParentChildForest.h(69): message : 在编译 类 模板 成员函数“ParentChildForest<char>::ParentChildForest(ElemType [],int [],int,int,int)”时
+          with
+          [
+              ElemType=char
+          ]
+D:\学习\课程\大二\大二春季\数据结构2\研讨一\OurPCF\main.cpp(14): message : 查看对正在编译的函数 模板 实例化“ParentChildForest<char>::ParentChildForest(ElemType [],int [],int,int,int)”的引用
+          with
+          [
+              ElemType=char
+          ]
+D:\学习\课程\大二\大二春季\数据结构2\研讨一\OurPCF\main.cpp(14): message : 查看对正在编译的 类 模板 实例化“ParentChildForest<char>”的引用
+D:\学习\课程\大二\大二春季\数据结构2\研讨一\OurPCF\ParentChildForest.h(87,26): error C2248: “Node<int>::next”: 无法访问 protected 成员(在“Node<int>”类中声明)
+D:\学习\课程\大二\大二春季\数据结构2\研讨一\OurPCF\node.h(13): message : 参见“Node<int>::next”的声明
+D:\学习\课程\大二\大二春季\数据结构2\研讨一\OurPCF\child_parent_tree_node.h(13): message : 参见“Node<int>”的声明
+D:\学习\课程\大二\大二春季\数据结构2\研讨一\OurPCF\ParentChildForest.h(88,18): error C2248: “Node<int>::next”: 无法访问 protected 成员(在“Node<int>”类中声明)
+D:\学习\课程\大二\大二春季\数据结构2\研讨一\OurPCF\node.h(13): message : 参见“Node<int>::next”的声明
+D:\学习\课程\大二\大二春季\数据结构2\研讨一\OurPCF\child_parent_tree_node.h(13): message : 参见“Node<int>”的声明

@@ -68,6 +68,7 @@ template<class ElemType>
 ParentChildForest<ElemType>::ParentChildForest(ElemType items[], int parents[], int r, int n,int size)
 {//构造森林
 //全部存放到结点数组内
+/*
     maxSize = size;													// 最大结点个数
     if (n > maxSize)
         throw Error("结点个数太多!");								// 抛出异常
@@ -91,7 +92,7 @@ ParentChildForest<ElemType>::ParentChildForest(ElemType items[], int parents[], 
     }
     first_tree_index = r;														// 第一颗树位置
     num_of_node = n;														// 结点个数
-
+    */
 }
 
 /*
