@@ -7,13 +7,10 @@ using namespace std;
 template <class ElemType>
 struct Node 
 {
-// 数据成员:
-protected:
-	ElemType data;				// 数据域
-	Node<ElemType> *next;		// 指针域
-
 // 构造函数:
 public:
+	ElemType data;				// 数据域
+	Node<ElemType>* next;		// 指针域
 	Node();						// 无参数的构造函数
 	Node(ElemType item, Node<ElemType> *link = NULL);	// 已知数数据元素值和指针建立结构
 };

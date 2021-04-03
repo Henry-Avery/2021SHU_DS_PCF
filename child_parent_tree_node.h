@@ -12,7 +12,7 @@ struct ChildParentTreeNode
 	ElemType data;					// 数据域
 	Node<int> *childLkList;		    // 孩子链表	
 	int parent;						// 双亲位置域，负数表示该节点是某棵树的根节点
-									//（-n对应第n个结点）
+									//（-n对应第n个结点,最后一棵树可通过其指向结点Parent域是否小于0判断）
 									//若该节点parent域也是负数，表示其是森林中下一颗树
 
 
